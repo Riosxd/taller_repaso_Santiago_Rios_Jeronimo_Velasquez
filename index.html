@@ -16,14 +16,23 @@
             <a href="#proyectos">Mis proyectos</a>
             <a href="#contacto">Acerca de mi</a>
         </nav>
+        
+        <div class="controles-usuario">
+            <button id="btn-toggle-tema" class="btn-tema">🌙 Cambiar Tema</button>
+        </div>
+
+
+
     </header>
     <!-- CONTENIDO PRINCIPAL -->
     <main>
         <!-- SECCIÓN 1: Hero (La portada de impacto) -->
         <section id="inicio" class="hero">
             <div class="hero-content">
-                <h1>Este es mi portafolio</h1>
-                <p>Mis proyectos en esta pagina</p>
+                <h1>Bienvenido a mi Portafolio</h1>
+                <!-- Contenedor vacío donde JS inyectará el saludo según la hora -->
+                 <p id="saludo-tiempo-real" class="texto-resaltado"></p>
+
                 <button class="btn-primary">Ver ahora</button>
             </div>
         </section>
@@ -49,3 +58,8 @@
             </div>
         </section>
     </main>
+    <!-- Esta línea debe ser la última antes del </body> -->
+     <script src="js/app.js" defer></script>
+
+</body>
+</html>
